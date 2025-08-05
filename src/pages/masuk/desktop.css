@@ -1,0 +1,341 @@
+.subTitleMasuk_span {
+  color: white;
+  font-size: 24px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.titleMasuk_span {
+  color: white;
+  font-size: 60px;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 68px;
+  word-wrap: break-word;
+}
+
+.titleMasuk {
+  width: 857.44px;
+  text-align: center;
+}
+
+.titleJadiMerchant_span {
+  color: white;
+  font-size: 60px;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 68px;
+  word-wrap: break-word;
+}
+
+.titleJadiMerchant {
+  align-self: stretch;
+}
+
+.JadiMerchant_span {
+  color: white;
+  font-size: 24px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.JadiMerchant {
+  align-self: stretch;
+}
+
+.buttontext_03_span {
+  color: #03368C;
+  font-size: 16px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.button-text_03 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleJadiAgent_span, .titleJadiAnggota_span {
+  color: white;
+  font-size: 60px;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 68px;
+  word-wrap: break-word;
+}
+
+.titleJadiAgent, .titleJadiAnggota {
+  align-self: stretch;
+}
+
+.jadiAgent_span {
+  color: white;
+  font-size: 24px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.jadiAgent {
+  align-self: stretch;
+}
+
+.buttontext_04_span {
+  color: #03368C;
+  font-size: 16px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.button-text_04 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconMitraMasuk, .iconTransaksiMasuk, .iconOrangMasuk {
+  width: 437px;
+  height: 437px;
+  position: relative;
+}
+
+.button {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: white;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.button_01 {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: #03368C;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.content_01 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28.04px;
+  display: flex;
+}
+
+.text_01 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.button_03 {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: white;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.text_02 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+}
+
+.button_04 {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: white;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.text_03 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+
+.text_04 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+
+.intro-section {
+  width: 100%;
+  max-width: 1500px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: radial-gradient(ellipse 53.91% 53.91% at 50.00% 50.00%, rgba(255, 255, 255, 0.20) 0%, rgba(153, 153, 153, 0) 100%);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 106px;
+  display: flex;
+}
+
+.content_02 {
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.content_03 {
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.card {
+  flex: 1 1 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 100px;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+  display: flex;
+}
+
+.card_01 {
+  flex: 1 1 0;
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+  display: flex;
+}
+
+.hero-section {
+  align-self: stretch;
+  height: 644px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.80) 80%), 
+    url(../../assets/transaksi.jpg); 
+  background-size: cover, 100%; 
+  background-position: center, center; 
+  background-repeat: no-repeat, no-repeat; 
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  display: flex;
+  padding: 40px 20px;
+}
+
+.section-1 {
+  width: 100%;
+  max-width: 1500px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 192px;
+  display: inline-flex;
+}
+
+.section-2 {
+  width: 100%;
+  max-width: 1500px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 188px;
+  display: inline-flex;
+}
+
+.services-section {
+  align-self: stretch;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #010F26 28%, #03368C 100%);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.desktop {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}

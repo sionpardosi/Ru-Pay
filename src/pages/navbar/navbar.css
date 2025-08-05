@@ -1,0 +1,201 @@
+.nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  background: white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+  
+  align-self: stretch;
+  height: 101px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  justify-content: space-between; 
+  align-items: center; 
+  display: inline-flex; 
+}
+ 
+.nav-labels {
+  flex: 1 1 0;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ 
+.logo {
+  width: 151px;
+  height: 57px;
+  position: relative;
+  margin-left: 20px;
+}
+ 
+.rupay-beranda {
+  width: 141px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  margin-top: 20px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.rupay-beranda:hover{
+  transform: scale(1.04);
+}
+ 
+.content_navbar_kanan {
+  width: 626.50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+ 
+.menu-nav {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.menu-nav a{
+    text-decoration: none;
+}
+
+.beranda {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.kontak-kami {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_span {
+  color: #111928;
+  font-size: 16px;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+  display: inline-block;
+  text-align: center;
+}
+
+.beranda .menu_span {
+  width: 65px; 
+}
+
+.kontak-kami .menu_span {
+  width: 95px; 
+}
+
+.tentang-kami .menu_span {
+  width: 105px; 
+}
+
+.menu_span:hover {
+  color: #2d64c9;
+  font-family: Outfit;
+  font-weight: bold;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.tentang-kami {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-navbar-putih {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: white;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-navbar-putih:hover {
+  background: #f8f9ff;
+  outline-color: #0245a8;
+  transform: translateY(-1px);
+}
+
+.buttontext_span {
+  color: #03368C;
+  font-size: 16px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.button-text {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button_01 {
+  height: 44px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background: #032e8c;
+  border-radius: 6px;
+  outline: 1px #03368C solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button_01:hover {
+  background: #0245a8;
+  outline-color: #0245a8;
+  transform: translateY(-1px);
+}
+
+.buttontext_01_span {
+  color: white;
+  font-size: 16px;
+  font-family: Outfit;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.button-text_01 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}

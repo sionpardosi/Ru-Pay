@@ -1,0 +1,11 @@
+.buttonNavbar.variant-filled {
+  background-color: #03368C;
+  color: white;
+  border: 1px solid #03368C;
+}
+
+.buttonNavbar.variant-outline {
+  background-color: white;
+  color: #03368C;
+  border: 1px solid #03368C;
+}

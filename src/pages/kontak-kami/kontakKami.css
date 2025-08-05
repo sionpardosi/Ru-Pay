@@ -1,0 +1,113 @@
+.section-5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #010F26 28.37%, #03368C 100%);
+}
+
+.text_kontakKami{
+    padding-left: 40px;
+    margin-top: -30px;
+}
+
+.kontakKami{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 40px
+}
+
+/* .card_kontakKami {
+  width: 100%;
+  background-color: linear-gradient(180deg, #010F26 28.37%, #03368C 100%),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  flex: 1 1 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 100px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+  display: flex;
+} */
+
+.card_base {
+    width: 100%;
+    background: linear-gradient(180deg, #010F26 28.37%, #03368C 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    flex: 1 1 0;
+    padding: 80px 100px 80px 80px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    display: flex;
+}
+
+.kontakKami_span{
+    color: var(--White-White, #FFF);
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; 
+    letter-spacing: -0.66px;
+}
+
+.kantorPusat{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.kantorPusat_span{
+    color: var(--White-White, #FFF);
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.264px;
+    text-align: left;
+}
+
+.alamat{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.alamat_span{
+    color: var(--White-White, #FFF);
+    font-family: "Outfit";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.pusatBantuan{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.pusatBantuan_span{
+    color: var(--White-White, #FFF);
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.264px;
+}
+
+.no_telp_span{
+    color: var(--White-White, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.iconLaptop{
+    margin-left: 280px;
+    margin-right: -50px;
+    width: 100%;
+    max-width: 437px;
+}
