@@ -1,23 +1,30 @@
-.section-5{
+/* Base styles - Desktop first approach */
+.section-5 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, #010F26 28.37%, #03368C 100%);
-}
-
-.text_tentangKami{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text_tentangKami {
     margin-top: -70px;
     padding-left: 20px;
-}
-
-.tentangKami{
+    flex: 1;
+  }
+  
+  .tentangKami {
     text-align: left;
     padding-bottom: 20px;
     padding-top: 70px;
-}
-
-.iconHp{
+  }
+  
+  .iconHp {
     margin-left: 200px;
-}
-
-.tentangKami_span{
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .tentangKami_span {
     color: var(--White-White, #FFF);
     font-family: Outfit;
     font-size: 60px;
@@ -25,46 +32,318 @@
     font-weight: 700;
     line-height: 68px; 
     letter-spacing: -0.66px;
-}
-
-.isi{
+  }
+  
+  .isi {
     text-align: left;
     padding-bottom: 20px;
-    width: 643px;
-}
-
-.isi_span{
+    width: 100%;
+    max-width: 643px;
+  }
+  
+  .isi_span {
     color: var(--White-White, #FFF);
     font-family: "Outfit";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
-}
-
-/* .card_tentangKami {
-  width: 100%;
-  background-color: linear-gradient(180deg, #010F26 28.37%, #03368C 100%),
-linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  flex: 1 1 0;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 80px;
-  padding-right: 100px;
-  border-radius: 20px;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 70px;
-  display: flex;
-} */
-
-.card_base {
+  }
+  
+  .card_base {
     width: 100%;
-    background: linear-gradient(180deg, #010F26 28.37%, #03368C 100%),linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(180deg, #010F26 28.37%, #03368C 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     flex: 1 1 0;
     padding: 80px 100px 80px 80px;
     justify-content: flex-start;
     align-items: center;
     gap: 70px;
     display: flex;
-}
+  }
+  
+  .text_01 {
+    width: 100%;
+  }
+  
+  .text_isi {
+    width: 100%;
+  }
+  
+  /* Large Desktop - 1400px+ */
+  @media screen and (min-width: 1400px) {
+    .card_base {
+        padding: 100px 120px 100px 100px;
+        gap: 100px;
+    }
+  
+    .iconHp {
+        max-width: 600px;
+        margin-left: 250px;
+        flex-direction: column-reverse;
+    }
+  }
+  
+  /* Desktop - 1200px to 1399px */
+  @media screen and (max-width: 1399px) {
+    .card_base {
+        padding: 80px 80px 80px 60px;
+        gap: 60px;
+    }
+  
+    .iconHp {
+        margin-left: 150px;
+        max-width: 450px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi {
+        max-width: 600px;
+    }
+  }
+  
+  /* Tablet Large - 1024px to 1199px */
+  @media screen and (max-width: 1199px) {
+    .tentangKami_span {
+        font-size: 50px;
+        line-height: 58px;
+    }
+  
+    .card_base {
+        padding: 60px 50px 60px 40px;
+        gap: 50px;
+    }
+  
+    .iconHp {
+        margin-left: 100px;
+        max-width: 400px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi {
+        max-width: 500px;
+    }
+  
+    .text_tentangKami {
+        margin-top: -50px;
+    }
+  
+    .tentangKami {
+        padding-top: 50px;
+    }
+  }
+  
+  /* Tablet - 768px to 1023px */
+  @media screen and (max-width: 1023px) {
+    .tentangKami_span {
+        font-size: 42px;
+        line-height: 50px;
+    }
+  
+    .card_base {
+        flex-direction: column;
+        padding: 50px 40px;
+        gap: 40px;
+        text-align: center;
+    }
+  
+    .text_tentangKami {
+        margin-top: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+  
+    .tentangKami {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+  
+    .iconHp {
+        margin-left: 0;
+        max-width: 350px;
+        align-self: center;
+        flex-direction: column-reverse;
+    }
+  
+    .isi {
+        text-align: center;
+        max-width: 100%;
+    }
+  
+    .isi_span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+  }
+  
+  /* Mobile Large - 600px to 767px */
+  @media screen and (max-width: 767px) {
+    .tentangKami_span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+  
+    .card_base {
+        padding: 40px 30px;
+        gap: 30px;
+    }
+  
+    .iconHp {
+        max-width: 280px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi_span {
+        font-size: 15px;
+        line-height: 24px;
+    }
+  
+    .tentangKami {
+        padding-bottom: 20px;
+    }
+  
+    .isi {
+        padding-bottom: 30px;
+    }
+  }
+  
+  /* Mobile Medium - 480px to 599px */
+  @media screen and (max-width: 599px) {
+    .tentangKami_span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+  
+    .card_base {
+        padding: 30px 25px;
+        gap: 25px;
+    }
+  
+    .iconHp {
+        max-width: 250px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi_span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+  }
+  
+  /* Mobile Small - 375px to 479px */
+  @media screen and (max-width: 479px) {
+    .tentangKami_span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+  
+    .card_base {
+        padding: 25px 20px;
+        gap: 20px;
+    }
+  
+    .iconHp {
+        max-width: 220px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi_span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+  
+    .tentangKami {
+        padding-bottom: 15px;
+    }
+  
+    .isi {
+        padding-bottom: 20px;
+    }
+  }
+  
+  /* Mobile Extra Small - below 375px */
+  @media screen and (max-width: 374px) {
+    .tentangKami_span {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.3px;
+    }
+  
+    .card_base {
+        padding: 20px 15px;
+        gap: 15px;
+    }
+  
+    .iconHp {
+        max-width: 200px;
+        flex-direction: column-reverse;
+    }
+  
+    .isi_span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+  
+    .text_tentangKami {
+        padding-left: 0;
+    }
+  }
+  
+  /* Landscape orientation fixes untuk mobile */
+  @media screen and (max-height: 500px) and (orientation: landscape) {
+    .card_base {
+        flex-direction: row;
+        padding: 20px 30px;
+        gap: 30px;
+        min-height: auto;
+    }
+  
+    .tentangKami_span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+  
+    .iconHp {
+        max-width: 180px;
+        margin-left: 20px;
+        flex-direction: column-reverse;
+    }
+  
+    .tentangKami {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+  
+    .isi {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+  
+    .text_tentangKami {
+        padding-left: 10px;
+    }
+  }
+  
+  /* High DPI / Retina displays optimization */
+  @media screen and (-webkit-min-device-pixel-ratio: 2), 
+       screen and (min-resolution: 192dpi) {
+    .iconHp {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        flex-direction: column-reverse;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .section-5 {
+        background: #03368C !important;
+        color: white !important;
+    }
+    
+    .iconHp {
+        max-width: 300px;
+        flex-direction: column-reverse;
+    }
+  }
