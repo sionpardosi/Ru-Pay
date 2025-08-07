@@ -101,12 +101,12 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  cursor: pointer; 
-  transition: all 0.3s ease; 
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .beranda_01:hover {
-  transform: translateX(5px); 
+  transform: translateX(5px);
 }
 
 .kontakKamiFooter_span {
@@ -122,12 +122,12 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  cursor: pointer; 
-  transition: all 0.3s ease; 
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .kontak-kami_01:hover {
-  transform: translateX(5px); 
+  transform: translateX(5px);
 }
 
 .tantangKamiFooter_span {
@@ -143,12 +143,12 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  cursor: pointer; 
-  transition: all 0.3s ease; 
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .tentang-kami_01:hover {
-  transform: translateX(5px); 
+  transform: translateX(5px);
 }
 
 .text_right_span {
@@ -190,4 +190,60 @@
   align-items: center;
   gap: 232px;
   display: inline-flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .alamatFooter_span {
+    font-size: 12px;
+  }
+  .namaPT_span {
+    font-size: 14px;
+  }
+  .text_right_span {
+    font-size: 14px;
+  }
+  .experts-section_01 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .logo_01 {
+    width: 120px;
+    height: 46px;
+  }
+  .logoFooter {
+    width: 120px;
+    height: 46px;
+  }
+  .contentFooter {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .right-column {
+    gap: 100px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .text_right {
+    text-align: center;
+  }
+  .menuLayananFooter {
+    align-items: center;
+    text-align: center;
+  }
+  .beranda_01,
+  .kontak-kami_01,
+  .tentang-kami_01 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+
 }
