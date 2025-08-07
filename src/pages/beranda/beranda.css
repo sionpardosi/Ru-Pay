@@ -51,7 +51,8 @@
 }
 
 .heroTitle02 {
-  width: 857.44px;
+  width: 100%;
+  max-width: 857.44px;
   text-align: center;
 }
 
@@ -158,7 +159,8 @@
 }
 
 .heroTitleAlasan {
-  width: 857.44px;
+  width: 100%;
+  max-width: 857.44px;
   text-align: center;
 }
 
@@ -251,12 +253,12 @@
   font-size: 60px;
   font-family: Outfit;
   font-weight: 700;
-  /* line-height: 68px; */
+  line-height: 68px;
   word-wrap: break-word;
 }
 
 .heroTitle03 {
-  /* width: 1092px; */
+  width: 100%;
   text-align: center;
 }
 
@@ -459,8 +461,7 @@
 }
 
 .content_06 {
-  /* width: 1185px; */
-  /* max-width: 1500px; */
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -511,7 +512,6 @@
   align-items: flex-start;
   gap: 24px;
   display: inline-flex;
-  /* background-color: transparent; */
 }
 
 .intro-section {
@@ -632,64 +632,6 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 1024px) {
-  .card {
-    flex-direction: column;
-  }
-
-  .subTitleTransfer_span {
-    font-size: 20px;
-  }
-
-  .heroTitle2_span {
-    font-size: 32px;
-  }
-
-  .transferuang_span {
-    font-size: 40px;
-  }
-
-  .subTitleTransfer_span {
-    font-size: 20px;
-  }
-
-  .jadimitrakami_span {
-    font-size: 40px;
-  }
-
-  .subTitleMitra_span {
-    font-size: 20px;
-  }
-
-  .heroTitleAlasan_span {
-    font-size: 25px;
-  }
-
-  .heroTitle3_span {
-    font-size: 40px;
-    text-wrap: wrap;
-  }
-
-  .card_01 {
-    flex-direction: column-reverse;
-  }
-
-  .cepat_span {
-    font-size: 30px;
-  }
-
-  .aman_span {
-    font-size: 30px;
-  }
-
-  .realtime_span {
-    font-size: 30px;
-  }
-  .heroTitle1_span {
-    font-size: 50px;
-  }
-}
-
 .card_01 {
   flex: 1 1 0;
   padding: 80px;
@@ -699,7 +641,6 @@
   align-items: center;
   gap: 70px;
   display: flex;
-  /* flex-direction: row; */
 }
 
 .card_02 {
@@ -717,12 +658,6 @@
   display: inline-flex;
 }
 
-@media screen and (max-width: 1024px) {
-  .section-6 {
-    flex-direction: column;
-  }
-}
-
 .hero-section {
   background-size: cover, 100%;
   background-position: center, center;
@@ -733,12 +668,15 @@
   align-items: center;
   gap: 100px;
   display: flex;
+  position: relative;
 }
 
 .hero-content-beranda {
   text-align: left;
   padding-right: 420px;
   padding-bottom: 130px;
+  position: relative;
+  z-index: 2;
 }
 
 .section-1 {
@@ -784,4 +722,551 @@
 .desktop {
   width: 100%;
   flex-direction: column;
+}
+
+/* Tablet - iPad Pro dan landscape */
+@media screen and (max-width: 1200px) {
+  .heroTitle1_span {
+    font-size: 50px;
+    line-height: 58px;
+  }
+
+  .heroTitle2_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .transferuang_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .jadimitrakami_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .heroTitleAlasan_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .heroTitle3_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .hero-content-beranda {
+    padding-right: 200px;
+  }
+
+  .experts-section {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .card {
+    padding: 60px;
+    gap: 50px;
+  }
+
+  .card_01 {
+    padding: 60px;
+    gap: 50px;
+  }
+}
+
+/* Tablet Standard dan iPad */
+@media screen and (max-width: 1024px) {
+  .heroTitle1_span {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .heroTitle2_span {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .transferuang_span {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .jadimitrakami_span {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .heroTitleAlasan_span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .heroTitle3_span {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .subTitleTransfer_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .subTitleMitra_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cepat_span {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .aman_span {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .realtime_span {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+  }
+
+  .card_01 {
+    flex-direction: column-reverse;
+    padding: 40px;
+    gap: 40px;
+  }
+
+  /* .section-6 {
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 20px;
+  } */
+
+  .hero-content-beranda {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+  }
+
+  .experts-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .intro-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 60px;
+  }
+
+  .intro-section_01 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 60px;
+  }
+}
+
+/* Mobile Landscape dan Tablet Kecil */
+@media screen and (max-width: 768px) {
+  .heroTitle1_span {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .heroTitle2_span {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .transferuang_span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .jadimitrakami_span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .heroTitleAlasan_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .heroTitle3_span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .subTitle1_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .subTitleTransfer_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .subTitleMitra_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .layanankami_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .keunggulankami_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cepat_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .aman_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .realtime_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .section-1 {
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .section-2 {
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .card_01 {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .bold-duotone-money-card-transfer,
+  .bold-money-verified-check,
+  .bold-duotone-time-alarm {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-content-beranda {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 80px;
+  }
+
+  .button_02 {
+    margin-left: 0;
+    align-self: center;
+    width: fit-content;
+  }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 480px) {
+  .heroTitle1_span {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .heroTitle2_span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .transferuang_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .jadimitrakami_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .heroTitleAlasan_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .heroTitle3_span {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .subTitle1_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .subTitleTransfer_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .subTitleMitra_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .layanankami_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .keunggulankami_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .cepat_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .aman_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .realtime_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .card {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card_01 {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card_02,
+  .card_03,
+  .card_04 {
+    padding: 32px 16px;
+  }
+
+  .intro-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 40px;
+  }
+
+  .intro-section_01 {
+    padding: 32px 16px;
+    gap: 40px;
+  }
+
+  .experts-section {
+    padding: 60px 20px;
+  }
+
+  .hero-content-beranda {
+    padding: 0 20px 60px;
+  }
+/* 
+  .section-6 {
+    padding: 32px 16px;
+  } */
+
+  .bold-duotone-money-card-transfer,
+  .bold-money-verified-check,
+  .bold-duotone-time-alarm {
+    width: 100px;
+    height: 100px;
+  }
+
+  .button_05 {
+    width: 180px;
+  }
+
+  .heroTitle02,
+  .heroTitleAlasan {
+    max-width: 100%;
+  }
+}
+
+/* Mobile Portrait Kecil */
+@media screen and (max-width: 375px) {
+  .heroTitle1_span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .heroTitle2_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .transferuang_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .jadimitrakami_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .heroTitleAlasan_span {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .heroTitle3_span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .subTitle1_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .subTitleTransfer_span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .subTitleMitra_span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .layanankami_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .keunggulankami_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cepat_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .aman_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .realtime_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .card {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .card_01 {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .card_02,
+  .card_03,
+  .card_04 {
+    padding: 24px 12px;
+  }
+
+  .intro-section {
+    padding: 40px 12px;
+    gap: 32px;
+  }
+
+  .intro-section_01 {
+    padding: 24px 12px;
+    gap: 32px;
+  }
+
+  .experts-section {
+    padding: 40px 16px;
+  }
+
+  .hero-content-beranda {
+    padding: 0 16px 40px;
+  }
+
+  /* .section-6 {
+    padding: 24px 12px;
+  } */
+
+  .bold-duotone-money-card-transfer,
+  .bold-money-verified-check,
+  .bold-duotone-time-alarm {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button_05 {
+    width: 160px;
+    font-size: 14px;
+  }
+
+  .buttontext_05_span {
+    font-size: 14px;
+  }
+}
+
+/* Landscape orientation fixes untuk mobile */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .hero-content-beranda {
+    padding-bottom: 40px;
+  }
+
+  .intro-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .experts-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-6 {
+    flex-direction: column;
+  }
 }
