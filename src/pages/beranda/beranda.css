@@ -776,7 +776,6 @@
   }
 }
 
-/* Tablet Standard dan iPad */
 @media screen and (max-width: 1024px) {
   .heroTitle1_span {
     font-size: 42px;
